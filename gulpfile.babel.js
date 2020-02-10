@@ -29,7 +29,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('build', [
-   'build:bundled:min',
+   // 'build:bundled:min',
    'build:external:min',
    'build:bundled:debug',
    'build:external:debug',
